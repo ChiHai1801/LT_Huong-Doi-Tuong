@@ -1,0 +1,24 @@
+package buoi1;
+
+import java.util.Scanner;
+
+public class GPTBac1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Nhap a: ");
+		int a = sc.nextInt();
+		System.out.print("\nNhap b: ");
+		int b = sc.nextInt();
+		if(a==0)
+		{
+			if(b==0)
+				System.out.println("\nPhuong trinh vo so nghiem.");
+			else 
+				System.out.println("Phuong trinh vo nghiem.");
+		}
+		else
+			System.out.println("Phuong trinh co nghiem = "+((float)-b/a));
+	}
+}
+

@@ -1,0 +1,24 @@
+package buoi1;		// bai: 4
+
+import java.util.Scanner;
+
+public class TinhTong {
+
+	public static void main(String[] args) {
+		while(true)
+		{
+			try {
+				Scanner t = new Scanner(System.in);
+				System.out.print("Nhap a:");
+				int a= t.nextInt();
+				System.out.print("\nNhap b:");
+				int b= t.nextInt();
+				System.out.print("\nTong ="+(a+b));
+				break;
+			} catch (Exception e) {
+				System.out.println("Nhap sai - vui long nhap lai.");
+			}
+		}
+	}
+}
+
